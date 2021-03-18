@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Locations\" />
+    <Folder Include="Views\Activities\" />
+    <Folder Include="Views\Randomized\" />
+  </ItemGroup>
 </Project>
