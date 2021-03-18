@@ -13,7 +13,22 @@ namespace UnsceneTravel.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
+            List<string> name = new List<string>();
+
+            name.Add("Bowling");
+            name.Add("Cavern Climb");
+
+            ViewBag.names = name;
+
+
             return View();
         }
+    public IActionResult Add()
+    {
+            return View();
+
+        }
+    {
+        //Add new activity to list of activities
     }
 }
