@@ -9,4 +9,7 @@
     <Folder Include="Views\Activities\" />
     <Folder Include="Views\Randomized\" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.4" />
+  </ItemGroup>
 </Project>

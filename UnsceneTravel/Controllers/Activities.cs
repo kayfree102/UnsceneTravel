@@ -28,7 +28,7 @@ namespace UnsceneTravel.Controllers
             return View();
 
         }
-    {
+    
         //Add new activity to list of activities
     }
 }
